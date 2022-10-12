@@ -1,0 +1,674 @@
+                     LISENSI UMUM GNU
+                        Versi 3, 29 Juni 2007
+
+Hak Cipta (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+Setiap orang diizinkan untuk menyalin dan mendistribusikan salinan kata demi kata
+dokumen lisensi ini, tetapi mengubahnya tidak diperbolehkan.
+
+                            Pembukaan
+
+  Lisensi Publik Umum GNU adalah lisensi copyleft gratis untuk
+perangkat lunak dan jenis pekerjaan lainnya.
+
+  Lisensi untuk sebagian besar perangkat lunak dan pekerjaan praktis lainnya dirancang
+untuk mengambil kebebasan Anda untuk berbagi dan mengubah karya. Sebaliknya,
+Lisensi Publik Umum GNU dimaksudkan untuk menjamin kebebasan Anda untuk
+bagikan dan ubah semua versi program--untuk memastikannya tetap gratis
+perangkat lunak untuk semua penggunanya. Kami, Free Software Foundation, menggunakan
+Lisensi Publik Umum GNU untuk sebagian besar perangkat lunak kami; itu berlaku juga untuk
+karya lain yang dirilis dengan cara ini oleh penulisnya. Anda dapat menerapkannya ke
+program Anda juga.
+
+  Ketika kita berbicara tentang perangkat lunak bebas, kita mengacu pada kebebasan, bukan
+harga. Lisensi Publik Umum kami dirancang untuk memastikan bahwa Anda
+memiliki kebebasan untuk mendistribusikan salinan perangkat lunak bebas (dan mengenakan biaya untuk
+mereka jika Anda mau), bahwa Anda menerima kode sumber atau bisa mendapatkannya jika Anda
+menginginkannya, Anda dapat mengubah perangkat lunak atau menggunakan bagian-bagiannya dengan yang baru
+program gratis, dan Anda tahu bahwa Anda dapat melakukan hal-hal ini.
+
+  Untuk melindungi hak Anda, kami perlu mencegah orang lain menyangkal Anda
+hak-hak ini atau meminta Anda untuk menyerahkan hak-hak tersebut. Oleh karena itu, Anda memiliki
+tanggung jawab tertentu jika Anda mendistribusikan salinan perangkat lunak, atau jika
+Anda memodifikasinya: tanggung jawab untuk menghormati kebebasan orang lain.
+
+  Misalnya, jika Anda mendistribusikan salinan program semacam itu, apakah
+gratis atau dengan biaya, Anda harus memberikan kepada penerima yang sama
+kebebasan yang Anda terima. Anda harus memastikan bahwa mereka juga menerima
+atau bisa mendapatkan kode sumber. Dan Anda harus menunjukkan kepada mereka istilah-istilah ini agar mereka
+mengetahui hak-hak mereka.
+
+  Pengembang yang menggunakan GNU GPL melindungi hak Anda dengan dua langkah:
+(1) menegaskan hak cipta pada perangkat lunak, dan (2) menawarkan Lisensi ini kepada Anda
+memberi Anda izin hukum untuk menyalin, mendistribusikan dan/atau memodifikasinya.
+
+  Untuk perlindungan pengembang dan penulis, GPL menjelaskan dengan jelas
+bahwa tidak ada jaminan untuk perangkat lunak gratis ini. Baik untuk pengguna maupun
+demi penulis, GPL mengharuskan versi yang dimodifikasi ditandai sebagai
+diubah, sehingga masalah mereka tidak akan dikaitkan secara keliru dengan
+penulis versi sebelumnya.
+
+  Beberapa perangkat dirancang untuk menolak akses pengguna untuk menginstal atau menjalankan
+versi perangkat lunak yang dimodifikasi di dalamnya, meskipun pabrikannya
+dapat melakukannya. Ini pada dasarnya tidak sesuai dengan tujuan
+melindungi kebebasan pengguna untuk mengubah perangkat lunak. yang sistematis
+pola penyalahgunaan tersebut terjadi di bidang produk bagi individu untuk
+digunakan, yang justru di tempat yang paling tidak dapat diterima. Oleh karena itu, kami
+telah merancang versi GPL ini untuk melarang praktik bagi mereka
+produk. Jika masalah seperti itu muncul secara substansial di domain lain, kami
+bersiaplah untuk memperluas ketentuan ini ke domain tersebut di versi mendatang
+GPL, sesuai kebutuhan untuk melindungi kebebasan pengguna.
+
+  Akhirnya, setiap program terus-menerus terancam oleh paten perangkat lunak.
+Negara seharusnya tidak mengizinkan paten untuk membatasi pengembangan dan penggunaan
+perangkat lunak pada komputer tujuan umum, tetapi pada komputer yang melakukannya, kami ingin
+menghindari bahaya khusus yang dapat ditimbulkan oleh paten yang diterapkan pada program gratis
+menjadikannya milik secara efektif. Untuk mencegah hal ini, GPL memastikan bahwa
+paten tidak dapat digunakan untuk membuat program tidak bebas.
+
+  Syarat dan ketentuan yang tepat untuk menyalin, mendistribusikan, dan
+modifikasi mengikuti.
+
+                       SYARAT DAN KETENTUAN
+
+  0. Definisi.
+
+  "Lisensi Ini" mengacu pada versi 3 dari Lisensi Publik Umum GNU.
+
+  "Hak Cipta" juga berarti undang-undang serupa hak cipta yang berlaku untuk jenis . lainnya
+bekerja, seperti topeng semikonduktor.
+
+  "Program" mengacu pada karya berhak cipta apa pun yang dilisensikan di bawah ini
+Lisensi. Setiap penerima lisensi disapa sebagai "Anda". "Pemegang Lisensi" dan
+"penerima" dapat berupa individu atau organisasi.
+
+  Untuk "memodifikasi" sebuah karya berarti menyalin dari atau mengadaptasi semua atau sebagian dari karya
+dengan cara yang memerlukan izin hak cipta, selain dari pembuatan
+salinan yang tepat. Karya yang dihasilkan disebut "versi modifikasi" dari
+pekerjaan sebelumnya atau pekerjaan "berdasarkan" pekerjaan sebelumnya.
+
+  "Karya tercakup" berarti Program yang tidak dimodifikasi atau karya berbasis
+pada Program.
+
+  Untuk "menyebarkan" sebuah karya berarti melakukan apa saja dengan itu, tanpa
+izin, akan membuat Anda bertanggung jawab secara langsung atau sekunder atas
+pelanggaran di bawah undang-undang hak cipta yang berlaku, kecuali mengeksekusinya pada a
+komputer atau memodifikasi salinan pribadi. Perbanyakan meliputi penyalinan,
+distribusi (dengan atau tanpa modifikasi), menyediakan untuk
+publik, dan di beberapa negara kegiatan lain juga.
+
+  Untuk "menyampaikan" sebuah karya berarti segala jenis propagasi yang memungkinkan orang lain
+pihak untuk membuat atau menerima salinan. Sekedar interaksi dengan pengguna melalui
+jaringan komputer, tanpa transfer salinan, tidak menyampaikan.
+
+  Antarmuka pengguna interaktif menampilkan "Pemberitahuan Hukum yang Sesuai"
+sejauh itu termasuk nyaman dan terlihat jelas
+fitur yang (1) menampilkan pemberitahuan hak cipta yang sesuai, dan (2)
+memberi tahu pengguna bahwa tidak ada jaminan untuk pekerjaan tersebut (kecuali untuk
+sejauh jaminan diberikan), bahwa penerima lisensi dapat menyampaikan
+bekerja di bawah Lisensi ini, dan cara melihat salinan Lisensi ini. Jika
+antarmuka menyajikan daftar perintah atau opsi pengguna, seperti a
+menu, item yang menonjol dalam daftar memenuhi kriteria ini.
+
+  1. Kode Sumber.
+
+  "Kode sumber" untuk sebuah karya berarti bentuk karya yang disukai
+untuk melakukan modifikasi padanya. "Kode objek" berarti non-sumber apa pun
+bentuk sebuah karya.
+
+  "Antarmuka Standar" berarti antarmuka yang resmi
+standar yang ditetapkan oleh badan standar yang diakui, atau, dalam hal:
+antarmuka yang ditentukan untuk bahasa pemrograman tertentu, yang
+banyak digunakan di antara pengembang yang bekerja dalam bahasa itu.
+
+  "Perpustakaan Sistem" dari pekerjaan yang dapat dieksekusi mencakup apa saja, lainnya
+daripada pekerjaan secara keseluruhan, bahwa (a) termasuk dalam bentuk normal dari
+mengemas Komponen Utama, tetapi yang bukan bagian dari Komponen Utama itu
+Komponen, dan (b) hanya berfungsi untuk memungkinkan penggunaan karya dengan itu
+Komponen Utama, atau untuk mengimplementasikan Antarmuka Standar yang
+implementasi tersedia untuk umum dalam bentuk kode sumber. SEBUAH
+"Komponen Utama", dalam konteks ini, berarti komponen penting utama
+(kernel, sistem jendela, dan sebagainya) dari sistem operasi tertentu
+(jika ada) di mana pekerjaan yang dapat dieksekusi berjalan, atau kompiler yang digunakan untuk
+menghasilkan karya, atau penerjemah kode objek yang digunakan untuk menjalankannya.
+
+  "Sumber yang Sesuai" untuk sebuah karya dalam bentuk kode objek berarti semua
+kode sumber yang diperlukan untuk menghasilkan, menginstal, dan (untuk executable
+work) menjalankan kode objek dan memodifikasi pekerjaan, termasuk skrip untuk
+mengontrol kegiatan tersebut. Namun, itu tidak termasuk karya
+Perpustakaan Sistem, atau alat serba guna atau umumnya tersedia gratis
+program yang digunakan tidak dimodifikasi dalam melakukan kegiatan tersebut tetapi
+yang bukan merupakan bagian dari pekerjaan. Misalnya, Sumber yang Sesuai
+termasuk file definisi antarmuka yang terkait dengan file sumber untuk
+pekerjaan, dan kode sumber untuk perpustakaan bersama dan secara dinamis
+subprogram terkait bahwa pekerjaan itu dirancang khusus untuk dibutuhkan,
+seperti dengan komunikasi data yang intim atau aliran kontrol di antara mereka
+subprogram dan bagian lain dari pekerjaan.
+
+  Sumber yang Sesuai tidak perlu menyertakan apa pun yang pengguna
+dapat beregenerasi secara otomatis dari bagian lain yang Sesuai
+Sumber.
+
+  Sumber yang Sesuai untuk sebuah karya dalam bentuk kode sumber adalah bahwa
+pekerjaan yang sama.
+
+  2. Izin Dasar.
+
+  Semua hak yang diberikan berdasarkan Lisensi ini diberikan untuk jangka waktu
+hak cipta pada Program, dan tidak dapat dibatalkan asalkan dinyatakan
+kondisi terpenuhi. Lisensi ini secara eksplisit menegaskan bahwa Anda tidak terbatas
+izin untuk menjalankan Program yang tidak dimodifikasi. Keluaran dari menjalankan a
+pekerjaan yang dicakup dicakup oleh Lisensi ini hanya jika hasilnya, mengingat
+konten, merupakan karya tertutup. Lisensi ini mengakui
+hak penggunaan wajar atau setara lainnya, sebagaimana diatur oleh undang-undang hak cipta.
+
+  Anda dapat membuat, menjalankan, dan menyebarkan karya tercakup yang tidak Anda lakukan
+sampaikan, tanpa syarat selama lisensi Anda tetap ada
+terpaksa. Anda dapat menyampaikan karya tertutup kepada orang lain untuk tujuan tunggal
+meminta mereka membuat modifikasi khusus untuk Anda, atau memberi Anda
+dengan fasilitas untuk menjalankan pekerjaan tersebut, asalkan Anda mematuhi
+ketentuan Lisensi ini dalam menyampaikan semua materi yang Anda lakukan
+tidak mengontrol hak cipta. Mereka yang membuat atau menjalankan karya yang dicakup
+karena Anda harus melakukannya secara eksklusif atas nama Anda, di bawah arahan Anda
+dan kontrol, dengan syarat yang melarang mereka membuat salinan apa pun dari
+materi berhak cipta Anda di luar hubungan mereka dengan Anda.
+
+  Menyampaikan dalam keadaan lain apa pun diizinkan semata-mata berdasarkan
+kondisi yang disebutkan di bawah ini. Sublisensi tidak diperbolehkan; bagian 10
+membuatnya tidak perlu.
+
+  3. Melindungi Hak Hukum Pengguna Dari Undang-Undang Anti Pengelakan.
+
+  Tidak ada pekerjaan tertutup yang dianggap sebagai bagian dari teknologi yang efektif
+tindakan di bawah hukum yang berlaku memenuhi kewajiban berdasarkan pasal
+11 dari perjanjian hak cipta WIPO yang diadopsi pada 20 Desember 1996, atau
+undang-undang serupa yang melarang atau membatasi pengelakan seperti itu
+Pengukuran.
+
+  Saat Anda menyampaikan karya tertutup, Anda melepaskan kekuatan hukum apa pun untuk melarang
+pengelakan langkah-langkah teknologi sejauh pengelakan tersebut
+dilakukan dengan menggunakan hak berdasarkan Lisensi ini sehubungan dengan
+pekerjaan yang tercakup, dan Anda menyangkal niat apa pun untuk membatasi operasi atau
+modifikasi ciptaan sebagai sarana pemaksaan, terhadap ciptaan
+pengguna, hak hukum Anda atau pihak ketiga untuk melarang pengelakan
+langkah-langkah teknologi.
+
+  4. Menyampaikan Salinan Verbatim.
+
+  Anda dapat menyampaikan salinan kata demi kata dari kode sumber Program saat Anda
+menerimanya, dalam media apa pun, asalkan Anda secara mencolok dan
+mempublikasikan secara tepat pada setiap salinan pemberitahuan hak cipta yang sesuai;
+tetap utuh semua pemberitahuan yang menyatakan bahwa Lisensi ini dan semua
+istilah non-permisif ditambahkan sesuai dengan bagian 7 berlaku untuk kode;
+tetap utuh semua pemberitahuan tentang tidak adanya jaminan apapun; dan berikan semuanya
+penerima salinan Lisensi ini bersama dengan Program.
+
+  Anda dapat membebankan harga berapa pun atau tanpa harga untuk setiap salinan yang Anda sampaikan,
+dan Anda dapat menawarkan dukungan atau perlindungan garansi dengan biaya tertentu.
+
+  5. Menyampaikan Versi Sumber yang Dimodifikasi.
+
+  Anda dapat menyampaikan sebuah karya berdasarkan Program, atau modifikasi pada
+menghasilkannya dari Program, dalam bentuk kode sumber di bawah
+ketentuan pasal 4, asalkan Anda juga memenuhi semua ketentuan ini:
+
+    a) Karya harus memuat pemberitahuan mencolok yang menyatakan bahwa Anda telah mengubahnya
+    itu, dan memberikan tanggal yang relevan.
+
+    b) Pekerjaan harus membawa pemberitahuan mencolok yang menyatakan bahwa itu adalah
+    dirilis di bawah Lisensi ini dan kondisi apa pun yang ditambahkan di bawah bagian
+    7. Persyaratan ini mengubah persyaratan di bagian 4 menjadi
+    "tetap utuh semua pemberitahuan".
+
+    c) Anda harus melisensikan seluruh karya, secara keseluruhan, di bawah ini
+    Lisensi kepada siapa saja yang memiliki salinan. Ini
+    Oleh karena itu, lisensi akan berlaku, bersama dengan pasal 7 yang berlaku
+    persyaratan tambahan, untuk seluruh pekerjaan, dan semua bagiannya,
+    terlepas dari bagaimana mereka dikemas. Lisensi ini tidak memberikan
+    izin untuk melisensikan karya dengan cara lain, tetapi tidak
+    membatalkan izin tersebut jika Anda telah menerimanya secara terpisah.
+
+    d) Jika karya memiliki antarmuka pengguna interaktif, masing-masing harus menampilkan
+    Pemberitahuan Hukum yang Sesuai; namun, jika Program memiliki interaktif
+    antarmuka yang tidak menampilkan Pemberitahuan Hukum yang Sesuai, Anda
+    pekerjaan tidak perlu membuat mereka melakukannya.
+
+  Kompilasi karya tertutup dengan karya lain yang terpisah dan independen
+pekerjaan, yang menurut sifatnya bukan perluasan dari pekerjaan yang dicakup,
+dan yang tidak digabungkan dengannya seperti membentuk program yang lebih besar,
+dalam atau pada volume media penyimpanan atau distribusi, disebut
+"agregat" jika kompilasi dan hak cipta yang dihasilkannya tidak
+digunakan untuk membatasi akses atau hak hukum pengguna kompilasi
+melampaui apa yang diizinkan oleh pekerjaan individu. Pencantuman karya tertutup
+secara keseluruhan tidak menyebabkan Lisensi ini berlaku untuk yang lain
+bagian dari agregat.
+
+  6. Menyampaikan Formulir Non-Sumber.
+
+  Anda dapat menyampaikan karya tertutup dalam bentuk kode objek dengan ketentuan
+bagian 4 dan 5, asalkan Anda juga menyampaikan
+Sumber Koresponden yang dapat dibaca mesin di bawah persyaratan Lisensi ini,
+dengan salah satu cara berikut:
+
+    a) Sampaikan kode objek dalam, atau diwujudkan dalam, produk fisik
+    (termasuk media distribusi fisik), disertai dengan:
+    Sumber yang sesuai diperbaiki pada media fisik yang tahan lama
+    biasanya digunakan untuk pertukaran perangkat lunak.
+
+    b) Menyampaikan kode objek dalam, atau diwujudkan dalam, produk fisik
+    (termasuk media distribusi fisik), disertai dengan
+    penawaran tertulis, berlaku setidaknya selama tiga tahun dan berlaku sebagai
+    selama Anda menawarkan suku cadang atau dukungan pelanggan untuk produk itu
+    model, untuk memberi siapa saja yang memiliki kode objek (1) a
+    salinan Sumber yang Sesuai untuk semua perangkat lunak di
+    produk yang dicakup oleh Lisensi ini, pada fisik yang tahan lama
+    media yang biasa digunakan untuk pertukaran perangkat lunak, dengan harga tidak
+    lebih dari biaya wajar Anda untuk melakukan ini secara fisik
+    penyampaian sumber, atau (2) akses untuk menyalin
+    Sumber yang sesuai dari server jaringan tanpa biaya.
+
+    c) Sampaikan salinan individu dari kode objek dengan salinan
+    penawaran tertulis untuk menyediakan Sumber yang Sesuai. Ini
+    alternatif hanya diperbolehkan sesekali dan nonkomersial, dan
+    hanya jika Anda menerima kode objek dengan penawaran seperti itu, sesuai
+    dengan ayat 6b.
+
+    d) Sampaikan kode objek dengan menawarkan akses dari yang ditunjuk
+    tempat (gratis atau dikenakan biaya), dan menawarkan akses yang setara ke
+    Sumber yang sesuai dengan cara yang sama melalui tempat yang sama di no
+    biaya lebih lanjut. Anda tidak perlu meminta penerima untuk menyalin
+    Sumber yang sesuai bersama dengan kode objek. Jika tempat untuk
+    salin kode objek adalah server jaringan, Sumber yang Sesuai
+    mungkin berada di server yang berbeda (dioperasikan oleh Anda atau pihak ketiga)
+    yang mendukung fasilitas penyalinan yang setara, asalkan Anda memelihara
+    arah yang jelas di sebelah kode objek yang mengatakan di mana menemukan
+    Sumber yang Sesuai. Terlepas dari server apa yang menghosting
+    Sumber yang sesuai, Anda tetap berkewajiban untuk memastikan bahwa itu adalah
+    tersedia selama diperlukan untuk memenuhi persyaratan ini.
+
+    e) Sampaikan kode objek menggunakan transmisi peer-to-peer, asalkan
+    Anda memberi tahu rekan-rekan lain di mana kode objek dan Sesuai
+    Sumber pekerjaan sedang ditawarkan kepada masyarakat umum di no
+    biaya berdasarkan ayat 6d.
+
+  Bagian yang dapat dipisahkan dari kode objek, yang kode sumbernya dikecualikan
+dari Sumber yang Sesuai sebagai Pustaka Sistem, tidak perlu
+termasuk dalam menyampaikan pekerjaan kode objek.
+
+  "Produk Pengguna" adalah salah satu dari (1) "produk konsumen", yang berarti setiap
+barang pribadi berwujud yang biasanya digunakan untuk keperluan pribadi, keluarga,
+atau keperluan rumah tangga, atau (2) apa pun yang dirancang atau dijual untuk digabungkan
+ke dalam sebuah hunian. Dalam menentukan apakah suatu produk merupakan produk konsumen,
+kasus yang meragukan harus diselesaikan demi pertanggungan. Untuk tertentu
+produk yang diterima oleh pengguna tertentu, "biasanya digunakan" mengacu pada
+penggunaan umum atau umum dari kelas produk tersebut, terlepas dari statusnya
+pengguna tertentu atau cara pengguna tertentu
+benar-benar menggunakan, atau mengharapkan atau diharapkan untuk menggunakan, produk. Produk
+adalah produk konsumen terlepas dari apakah produk tersebut memiliki
+penggunaan komersial, industri atau non-konsumen, kecuali penggunaan tersebut mewakili
+satu-satunya cara penggunaan produk yang signifikan.
+
+  "Informasi Instalasi" untuk Produk Pengguna berarti metode apa pun,
+prosedur, kunci otorisasi, atau informasi lain yang diperlukan untuk menginstal
+dan menjalankan versi modifikasi dari karya tercakup dalam Produk Pengguna tersebut dari
+versi modifikasi dari Sumber yang Sesuai. Informasi harus
+cukup untuk memastikan bahwa objek yang dimodifikasi terus berfungsi
+kode sama sekali tidak dicegah atau diganggu semata-mata karena
+modifikasi telah dilakukan.
+
+  Jika Anda menyampaikan kode objek bekerja di bawah bagian ini di, atau dengan, atau
+khusus untuk digunakan dalam, Produk Pengguna, dan pengiriman terjadi sebagai
+bagian dari transaksi di mana hak kepemilikan dan penggunaan
+Produk Pengguna ditransfer ke penerima untuk selama-lamanya atau untuk
+jangka waktu tetap (terlepas dari bagaimana transaksi dicirikan),
+Sumber yang sesuai yang disampaikan di bawah bagian ini harus disertai
+oleh Informasi Instalasi. Tetapi persyaratan ini tidak berlaku
+jika Anda maupun pihak ketiga tidak memiliki kemampuan untuk menginstal
+kode objek yang dimodifikasi pada Produk Pengguna (misalnya, karya memiliki
+telah diinstal di ROM).
+
+  Persyaratan untuk memberikan Informasi Instalasi tidak termasuk:
+persyaratan untuk terus memberikan layanan dukungan, garansi, atau pembaruan
+untuk suatu karya yang telah dimodifikasi atau dipasang oleh penerima, atau untuk
+Produk Pengguna yang telah dimodifikasi atau diinstal. Akses ke
+jaringan dapat ditolak ketika modifikasi itu sendiri secara material dan
+berdampak buruk pada pengoperasian jaringan atau melanggar aturan dan
+protokol untuk komunikasi di seluruh jaringan.
+
+  Sumber yang sesuai disampaikan, dan Informasi Instalasi disediakan,
+sesuai dengan bagian ini harus dalam format yang terbuka untuk umum
+didokumentasikan (dan dengan implementasi yang tersedia untuk umum di
+formulir kode sumber), dan tidak memerlukan kata sandi atau kunci khusus untuk
+membongkar, membaca atau menyalin.
+
+  7. Ketentuan Tambahan.
+
+  "Izin tambahan" adalah istilah yang melengkapi persyaratan ini
+Lisensi dengan membuat pengecualian dari satu atau lebih kondisinya.
+Izin tambahan yang berlaku untuk seluruh Program harus
+diperlakukan seolah-olah mereka termasuk dalam Lisensi ini, sejauh
+bahwa mereka sah menurut hukum yang berlaku. Jika izin tambahan
+hanya berlaku untuk bagian dari Program, bagian itu dapat digunakan secara terpisah
+di bawah izin tersebut, tetapi seluruh Program tetap diatur oleh
+Lisensi ini tanpa memperhatikan izin tambahan.
+
+  Saat Anda menyampaikan salinan dari karya yang dicakup, Anda dapat sesuai pilihan Anda
+hapus izin tambahan apa pun dari salinan itu, atau dari bagian mana pun dari
+dia. (Izin tambahan dapat ditulis untuk meminta izin mereka sendiri
+penghapusan dalam kasus tertentu ketika Anda memodifikasi pekerjaan.) Anda dapat menempatkan
+izin tambahan pada materi, ditambahkan oleh Anda ke karya tertutup,
+yang Anda miliki atau dapat berikan izin hak cipta yang sesuai.
+
+  Tanpa mengabaikan ketentuan lain dari Lisensi ini, untuk materi yang Anda
+menambah karya yang dicakup, Anda dapat (jika diizinkan oleh pemegang hak cipta dari
+materi itu) melengkapi persyaratan Lisensi ini dengan persyaratan:
+
+    a) Menolak garansi atau membatasi tanggung jawab secara berbeda dari
+    ketentuan pasal 15 dan 16 dari Lisensi ini; atau
+
+    b) Memerlukan pelestarian pemberitahuan hukum wajar yang ditentukan atau
+    atribusi penulis dalam materi itu atau dalam Hukum yang Sesuai
+    Pemberitahuan yang ditampilkan oleh karya yang memuatnya; atau
+
+    c) Melarang pernyataan yang salah tentang asal bahan tersebut, atau
+    mengharuskan versi modifikasi dari materi tersebut ditandai dalam
+    cara yang wajar karena berbeda dari versi aslinya; atau
+
+    d) Membatasi penggunaan untuk tujuan publisitas nama pemberi lisensi atau
+    penulis materi; atau
+
+    e) Menolak untuk memberikan hak berdasarkan undang-undang merek dagang untuk penggunaan beberapa
+    nama dagang, merek dagang, atau merek layanan; atau
+
+    f) Memerlukan ganti rugi dari pemberi lisensi dan penulis itu
+    materi oleh siapa pun yang menyampaikan materi (atau versi modifikasi dari
+    itu) dengan asumsi kontraktual kewajiban kepada penerima, untuk
+    kewajiban apa pun yang secara langsung dikenakan oleh asumsi kontraktual ini
+    pemberi lisensi dan penulis tersebut.
+
+  Semua persyaratan tambahan non-permisif lainnya dianggap "lebih lanjut
+pembatasan" dalam arti bagian 10. Jika Program seperti Anda
+menerimanya, atau bagian mana pun darinya, berisi pemberitahuan yang menyatakan bahwa itu adalah
+diatur oleh Lisensi ini bersama dengan istilah yang lebih lanjut
+pembatasan, Anda dapat menghapus istilah itu. Jika dokumen lisensi berisi:
+pembatasan lebih lanjut tetapi mengizinkan lisensi ulang atau pengiriman berdasarkan ini
+Lisensi, Anda dapat menambahkan materi kerja tertutup yang diatur oleh persyaratan
+dokumen lisensi itu, asalkan pembatasan lebih lanjut tidak
+tidak bertahan seperti pelepasan atau pengiriman.
+
+  Jika Anda menambahkan istilah ke karya tercakup sesuai dengan bagian ini, Anda
+harus menempatkan, dalam file sumber yang relevan, pernyataan
+persyaratan tambahan yang berlaku untuk file tersebut, atau pemberitahuan yang menunjukkan
+di mana menemukan persyaratan yang berlaku.
+
+  Persyaratan tambahan, permisif atau non-permisif, dapat dinyatakan dalam
+berupa izin tertulis tersendiri, atau dinyatakan sebagai pengecualian;
+persyaratan di atas berlaku dengan cara apa pun.
+
+  8. Pemutusan.
+
+  Anda tidak boleh menyebarkan atau memodifikasi karya yang dicakup kecuali secara tegas
+disediakan di bawah Lisensi ini. Setiap upaya sebaliknya untuk menyebarkan atau
+mengubahnya tidak berlaku, dan secara otomatis akan menghentikan hak Anda berdasarkan
+Lisensi ini (termasuk lisensi paten apa pun yang diberikan berdasarkan lisensi ketiga
+paragraf pasal 11).
+
+  Namun, jika Anda menghentikan semua pelanggaran Lisensi ini, maka Anda
+lisensi dari pemegang hak cipta tertentu dipulihkan (a)
+untuk sementara, kecuali dan sampai pemegang hak cipta secara tegas dan
+akhirnya mengakhiri lisensi Anda, dan (b) secara permanen, jika hak cipta
+pemegang gagal memberi tahu Anda tentang pelanggaran dengan cara yang wajar
+sebelum 60 hari setelah penghentian.
+
+  Selain itu, lisensi Anda dari pemegang hak cipta tertentu adalah
+dipulihkan secara permanen jika pemegang hak cipta memberi tahu Anda tentang
+pelanggaran dengan cara yang wajar, ini adalah pertama kalinya Anda melakukannya
+menerima pemberitahuan pelanggaran Lisensi ini (untuk pekerjaan apa pun) dari itu
+pemegang hak cipta, dan Anda menyembuhkan pelanggaran sebelum 30 hari setelahnya
+tanda terima pemberitahuan Anda.
+
+  Penghentian hak Anda berdasarkan bagian ini tidak mengakhiri
+lisensi dari pihak yang telah menerima salinan atau hak dari Anda berdasarkan
+Lisensi ini. Jika hak Anda telah dihentikan dan tidak permanen
+diaktifkan kembali, Anda tidak memenuhi syarat untuk menerima lisensi baru untuk hal yang sama
+materi di bawah bagian 10.
+
+  9. Penerimaan Tidak Diperlukan untuk Memiliki Salinan.
+
+  Anda tidak diharuskan untuk menerima Lisensi ini untuk menerima atau
+menjalankan salinan Program. Perbanyakan tambahan dari karya tertutup
+terjadi semata-mata sebagai konsekuensi dari penggunaan transmisi peer-to-peer
+untuk menerima salinan juga tidak memerlukan penerimaan. Namun,
+tidak lain dari Lisensi ini yang memberi Anda izin untuk menyebarkan atau
+memodifikasi pekerjaan yang tercakup. Tindakan ini melanggar hak cipta jika Anda melakukannya
+tidak menerima Lisensi ini. Oleh karena itu, dengan memodifikasi atau menyebarkan
+pekerjaan yang tercakup, Anda menunjukkan penerimaan Anda atas Lisensi ini untuk melakukannya.
+
+  10. Lisensi Otomatis Penerima Hilir.
+
+  Setiap kali Anda menyampaikan karya yang dicakup, penerima secara otomatis
+menerima lisensi dari pemberi lisensi asli, untuk menjalankan, memodifikasi, dan
+menyebarkan karya itu, dengan tunduk pada Lisensi ini. Anda tidak bertanggung jawab
+untuk menegakkan kepatuhan oleh pihak ketiga dengan Lisensi ini.
+
+  "Transaksi entitas" adalah transaksi yang mengalihkan kendali atas suatu
+organisasi, atau secara substansial semua aset dari satu, atau membagi
+organisasi, atau penggabungan organisasi. Jika propagasi tertutup
+hasil kerja dari transaksi entitas, masing-masing pihak untuk itu
+transaksi yang menerima salinan pekerjaan juga menerima apa pun
+lisensi atas karya yang dimiliki atau dapat dimiliki oleh pendahulu pihak yang berkepentingan
+berikan di bawah paragraf sebelumnya, ditambah hak untuk memiliki
+Sumber yang sesuai dari karya dari pendahulu yang diminati, jika
+pendahulunya memilikinya atau bisa mendapatkannya dengan upaya yang wajar.
+
+  Anda tidak boleh memaksakan pembatasan lebih lanjut pada pelaksanaan
+hak yang diberikan atau ditegaskan berdasarkan Lisensi ini. Misalnya, Anda mungkin
+tidak mengenakan biaya lisensi, royalti, atau biaya lain untuk pelaksanaan
+hak yang diberikan berdasarkan Lisensi ini, dan Anda tidak boleh memulai proses pengadilan
+(termasuk klaim silang atau klaim balik dalam gugatan) yang menyatakan bahwa
+setiap klaim paten dilanggar dengan membuat, menggunakan, menjual, menawarkan untuk
+penjualan, atau mengimpor Program atau bagian apa pun darinya.
+
+  11. Paten.
+
+  "Kontributor" adalah pemegang hak cipta yang mengizinkan penggunaan berdasarkan ini
+Lisensi Program atau karya yang menjadi dasar Program. Itu
+pekerjaan yang dilisensikan dengan demikian disebut "versi kontributor" kontributor.
+
+  "Klaim paten penting" kontributor semuanya adalah klaim paten
+dimiliki atau dikendalikan oleh kontributor, baik yang sudah diakuisisi atau
+selanjutnya diperoleh, yang akan dilanggar dengan cara tertentu, diizinkan
+oleh Lisensi ini, membuat, menggunakan, atau menjual versi kontributornya,
+tetapi tidak termasuk klaim yang akan dilanggar hanya sebagai
+konsekuensi dari modifikasi lebih lanjut dari versi kontributor. Untuk
+tujuan definisi ini, "pengendalian" termasuk hak untuk memberikan
+mensublisensikan paten dengan cara yang konsisten dengan persyaratan:
+Lisensi ini.
+
+  Setiap kontributor memberi Anda non-eksklusif, di seluruh dunia, bebas royalti
+lisensi paten di bawah klaim paten esensial kontributor, untuk
+membuat, menggunakan, menjual, menawarkan untuk dijual, mengimpor, dan menjalankan, memodifikasi, dan
+menyebarkan konten versi kontributornya.
+
+  Dalam tiga paragraf berikut, "lisensi paten" adalah setiap ekspres
+perjanjian atau komitmen, bagaimanapun mata uangnya, untuk tidak menegakkan paten
+(seperti izin tegas untuk mempraktekkan paten atau perjanjian untuk tidak
+menuntut pelanggaran paten). Untuk "memberikan" lisensi paten seperti itu kepada a
+pihak berarti membuat perjanjian atau komitmen tersebut untuk tidak memaksakan suatu
+paten terhadap pihak tersebut.
+
+  Jika Anda menyampaikan karya tertutup, dengan sengaja mengandalkan lisensi paten,
+dan Sumber Karya yang Sesuai tidak tersedia untuk siapa pun
+untuk menyalin, gratis dan di bawah persyaratan Lisensi ini, melalui a
+server jaringan yang tersedia untuk umum atau sarana lain yang mudah diakses,
+maka Anda harus (1) menyebabkan Sumber yang Sesuai menjadi begitu
+tersedia, atau (2) mengatur untuk menghilangkan manfaat dari
+lisensi paten untuk pekerjaan khusus ini, atau (3) mengatur, dengan cara
+konsisten dengan persyaratan Lisensi ini, untuk memperpanjang paten
+lisensi ke penerima hilir. "Dengan sadar mengandalkan" berarti Anda memiliki
+pengetahuan sebenarnya bahwa, tetapi untuk lisensi paten, Anda menyampaikan
+pekerjaan tercakup di suatu negara, atau penggunaan karya tercakup oleh penerima Anda
+di suatu negara, akan melanggar satu atau lebih paten yang dapat diidentifikasi di negara itu
+negara yang Anda memiliki alasan untuk percaya adalah valid.
+
+  Jika, berdasarkan atau sehubungan dengan satu transaksi atau
+pengaturan, Anda menyampaikan, atau menyebarkan dengan pengadaan pengangkutan, a
+pekerjaan tertutup, dan memberikan lisensi paten kepada beberapa pihak
+menerima karya tercakup yang mengizinkan mereka untuk menggunakan, menyebarkan, memodifikasi
+atau menyampaikan salinan spesifik dari karya yang dicakup, kemudian lisensi paten
+yang Anda berikan secara otomatis diperluas ke semua penerima yang tercakup
+bekerja dan bekerja berdasarkan itu.
+
+  Lisensi paten adalah "diskriminatif" jika tidak termasuk dalam
+ruang lingkup cakupannya, melarang pelaksanaan, atau
+dikondisikan pada tidak dilaksanakannya satu atau lebih hak yang
+diberikan secara khusus berdasarkan Lisensi ini. Anda tidak boleh menyampaikan cover
+bekerja jika Anda adalah pihak dalam perjanjian dengan pihak ketiga yang
+dalam bisnis mendistribusikan perangkat lunak, di mana Anda melakukan pembayaran
+kepada pihak ketiga berdasarkan sejauh mana aktivitas Anda menyampaikan
+pekerjaan, dan di mana pihak ketiga memberikan, kepada salah satu dari
+pihak yang akan menerima karya tertutup dari Anda, diskriminatif
+lisensi paten (a) sehubungan dengan salinan dari karya yang dicakup
+disampaikan oleh Anda (atau salinan yang dibuat dari salinan tersebut), atau (b) terutama
+untuk dan sehubungan dengan produk atau kompilasi tertentu yang
+berisi pekerjaan yang tercakup, kecuali jika Anda menandatangani pengaturan itu,
+atau bahwa lisensi paten diberikan, sebelum 28 Maret 2007.
+
+  Tidak ada dalam Lisensi ini yang dapat ditafsirkan sebagai mengecualikan atau membatasi
+lisensi tersirat atau pembelaan lain terhadap pelanggaran yang mungkin
+jika tidak, tersedia untuk Anda berdasarkan undang-undang paten yang berlaku.
+
+  12. Tidak Menyerahkan Kebebasan Orang Lain.
+
+  Jika kondisi dikenakan pada Anda (baik dengan perintah pengadilan, persetujuan atau
+jika tidak) yang bertentangan dengan ketentuan Lisensi ini, mereka tidak
+permisi dari ketentuan Lisensi ini. Jika Anda tidak dapat menyampaikan
+pekerjaan tertutup untuk memenuhi secara bersamaan kewajiban Anda berdasarkan ini
+Lisensi dan kewajiban terkait lainnya, maka sebagai konsekuensinya Anda dapat
+tidak menyampaikannya sama sekali. Misalnya, jika Anda menyetujui persyaratan yang mewajibkan Anda
+untuk mengumpulkan royalti untuk pengiriman lebih lanjut dari mereka yang Anda sampaikan
+Program, satu-satunya cara Anda dapat memenuhi kedua persyaratan tersebut dan ini
+Lisensi akan menahan diri sepenuhnya dari menyampaikan Program.
+
+  13. Gunakan dengan Lisensi Publik Umum GNU Affero.
+
+  Terlepas dari ketentuan lain dari Lisensi ini, Anda memiliki
+izin untuk menautkan atau menggabungkan karya tercakup apa pun dengan karya berlisensi
+di bawah versi 3 dari GNU Affero General Public License menjadi satu
+pekerjaan gabungan, dan untuk menyampaikan pekerjaan yang dihasilkan. Ketentuan ini
+Lisensi akan terus berlaku untuk bagian yang merupakan karya tercakup,
+tetapi persyaratan khusus dari GNU Affero General Public License,
+bagian 13, tentang interaksi melalui jaringan akan berlaku untuk
+kombinasi seperti itu.
+
+  14. Versi Revisi dari Lisensi ini.
+
+  Free Software Foundation dapat menerbitkan versi yang direvisi dan/atau baru dari
+Lisensi Publik Umum GNU dari waktu ke waktu. Versi baru seperti itu akan
+memiliki semangat yang sama dengan versi saat ini, tetapi mungkin berbeda secara detail untuk
+mengatasi masalah atau masalah baru.
+
+  Setiap versi diberi nomor versi yang membedakan. jika
+Program menetapkan bahwa versi tertentu dari GNU General
+Lisensi Publik "atau versi yang lebih baru" berlaku untuknya, Anda memiliki
+pilihan untuk mengikuti syarat dan ketentuan salah satu dari nomor tersebut
+versi atau versi yang lebih baru yang diterbitkan oleh Perangkat Lunak Bebas
+Dasar. Jika Program tidak menentukan nomor versi dari
+Lisensi Publik Umum GNU, Anda dapat memilih versi apa pun yang pernah diterbitkan
+oleh Yayasan Perangkat Lunak Bebas.
+
+  Jika Program menentukan bahwa proxy dapat memutuskan masa depan yang mana
+versi Lisensi Publik Umum GNU dapat digunakan, proxy itu
+pernyataan publik tentang penerimaan suatu versi secara permanen memberi Anda wewenang
+untuk memilih versi itu untuk Program.
+
+  Versi lisensi yang lebih baru dapat memberi Anda tambahan atau perbedaan
+izin. Namun, tidak ada kewajiban tambahan yang dikenakan pada setiap
+penulis atau pemegang hak cipta sebagai akibat dari pilihan Anda untuk mengikuti a
+versi yang lebih baru.
+
+  15. Penafian Garansi.
+
+  TIDAK ADA JAMINAN UNTUK PROGRAM, SEJAUH DIIZINKAN OLEH
+HUKUM YANG BERLAKU. KECUALI DINYATAKAN LAIN DALAM TULISAN HAK CIPTA
+PEMEGANG DAN/ATAU PIHAK LAIN MENYEDIAKAN PROGRAM "SEBAGAIMANA ADANYA" TANPA JAMINAN
+APA PUN, BAIK TERSURAT MAUPUN TERSIRAT, TERMASUK, NAMUN TIDAK TERBATAS PADA,
+JAMINAN TERSIRAT DAPAT DIPERDAGANGKAN DAN KESESUAIAN UNTUK TERTENTU
+TUJUAN. SELURUH RISIKO TERHADAP KUALITAS DAN KINERJA PROGRAM
+ADALAH DENGAN ANDA. JIKA PROGRAM TERBUKTI CACAT, ANDA MENANGGUNG BIAYA
+SEMUA PELAYANAN, PERBAIKAN ATAU KOREKSI YANG DIPERLUKAN.
+
+  16. Batasan Tanggung Jawab.
+
+  DALAM KEADAAN APAPUN KECUALI DIBUTUHKAN OLEH HUKUM YANG BERLAKU ATAU DISETUJUI TERTULIS
+APAKAH PEMEGANG HAK CIPTA, ATAU PIHAK LAIN YANG MENGUBAH DAN/ATAU MENYAMPAIKAN
+PROGRAM SEPERTI DIIZINKAN DI ATAS, BERTANGGUNG JAWAB KEPADA ANDA ATAS KERUSAKAN, TERMASUK
+KERUSAKAN UMUM, KHUSUS, INSIDENTAL ATAU KONSEKUENSIAL YANG TIMBUL DARI
+PENGGUNAAN ATAU KETIDAKMAMPUAN MENGGUNAKAN PROGRAM (TERMASUK NAMUN TIDAK TERBATAS PADA KEHILANGAN
+DATA ATAU DATA YANG DISEDIAKAN TIDAK AKURAT ATAU KERUGIAN DITANGGUNG OLEH ANDA ATAU KETIGA
+PIHAK ATAU KEGAGALAN PROGRAM UNTUK BEROPERASI DENGAN PROGRAM LAIN),
+BAHKAN JIKA PEMEGANG TERSEBUT ATAU PIHAK LAIN TELAH DIBERITAHU TENTANG KEMUNGKINAN
+KERUSAKAN TERSEBUT.
+
+  17. Interpretasi Bagian 15 dan 16.
+
+  Jika penafian garansi dan pembatasan tanggung jawab diberikan
+di atas tidak dapat diberikan kekuatan hukum setempat menurut syarat-syaratnya,
+pengadilan peninjau harus menerapkan hukum setempat yang paling mendekati
+pengabaian mutlak dari semua tanggung jawab perdata sehubungan dengan
+Program, kecuali jaminan atau asumsi tanggung jawab menyertai a
+salinan Program dengan imbalan biaya.
+
+                     AKHIR SYARAT DAN KETENTUAN
+
+            Cara Menerapkan Ketentuan Ini ke Program Baru Anda
+
+  Jika Anda mengembangkan program baru, dan Anda menginginkannya menjadi yang terbaik
+mungkin digunakan untuk umum, cara terbaik untuk mencapai ini adalah dengan membuatnya
+perangkat lunak bebas yang dapat didistribusikan ulang dan diubah oleh setiap orang berdasarkan ketentuan ini.
+
+  Untuk melakukannya, lampirkan pemberitahuan berikut ke program. Ini paling aman
+untuk melampirkannya ke awal setiap file sumber dengan paling efektif
+sebutkan pengecualian garansi; dan setiap file harus memiliki setidaknya
+baris "hak cipta" dan penunjuk ke tempat pemberitahuan lengkap ditemukan.
+
+    <satu baris untuk memberi nama program dan gambaran singkat tentang fungsinya.>
+    Hak Cipta (C) <tahun> <nama penulis>
+
+    Program ini adalah perangkat lunak gratis: Anda dapat mendistribusikannya kembali dan/atau memodifikasi
+    itu di bawah ketentuan Lisensi Publik Umum GNU sebagaimana diterbitkan oleh
+    Free Software Foundation, baik versi 3 dari Lisensi, atau
+    (sesuai pilihan Anda) versi yang lebih baru.
+
+    Program ini disebarluaskan dengan harapan dapat bermanfaat,
+    tapi TANPA JAMINAN APAPUN; bahkan tanpa jaminan tersirat dari
+    DAGANG atau KESESUAIAN UNTUK TUJUAN TERTENTU. Lihat
+    Lisensi Publik Umum GNU untuk lebih jelasnya.
+
+    Anda seharusnya telah menerima salinan dari GNU General Public License
+    bersama dengan program ini. Jika tidak, lihat <https://www.gnu.org/licenses/>.
+
+Juga tambahkan informasi tentang cara menghubungi Anda melalui surat elektronik dan kertas.
+
+  Jika program melakukan interaksi terminal, buatlah output singkat
+perhatikan seperti ini ketika dimulai dalam mode interaktif:
+
+    <program> Hak Cipta (C) <tahun> <nama pengarang>
+    Program ini dilengkapi dengan BENAR-BENAR TANPA GARANSI; untuk detail ketik `tampilkan w'.
+    Ini adalah perangkat lunak gratis, dan Anda dipersilakan untuk mendistribusikannya kembali
+    dalam kondisi tertentu; ketik `tampilkan c' untuk detailnya.
+
+Perintah hipotetis `tampilkan w' dan `tunjukkan c' harus menunjukkan yang sesuai
+bagian dari Lisensi Publik Umum. Tentu saja, perintah program Anda
+mungkin berbeda; untuk antarmuka GUI, Anda akan menggunakan "tentang kotak".
+
+  Anda juga harus mendapatkan majikan Anda (jika Anda bekerja sebagai programmer) atau sekolah,
+jika ada, untuk menandatangani "penafian hak cipta" untuk program tersebut, jika perlu.
+Untuk informasi lebih lanjut tentang ini, dan bagaimana menerapkan dan mengikuti GNU GPL, lihat
+<https://www.gnu.org/licenses/>.
+
+  Lisensi Publik Umum GNU tidak mengizinkan penggabungan program Anda
+ke dalam program berpemilik. Jika program Anda adalah pustaka subrutin, Anda
+mungkin menganggap lebih berguna untuk mengizinkan penautan aplikasi berpemilik dengan
+Perpustakaan. Jika ini yang ingin Anda lakukan, gunakan GNU Lesser General
+Lisensi Publik alih-alih Lisensi ini. Tapi pertama-tama, silakan baca
+<https://www.gnu.org/licenses/why-not-lgpl.html>.
